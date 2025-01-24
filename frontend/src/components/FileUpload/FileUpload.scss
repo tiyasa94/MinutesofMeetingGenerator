@@ -1,0 +1,77 @@
+@use "@carbon/react";
+
+// .FileUpload {
+//   // Keep your existing styles as they are
+//   margin-top: 1rem;
+//   padding-left: 15px;
+//   padding-right: 15px;
+//   margin-bottom: 5rem;
+//   padding: 10px; // Unified padding value
+//   height: 350px; // Maintain the fixed height as per your design
+//   width: 100%;
+//   max-width: 800px;
+
+// //   // Your existing styles for file and filename styling
+// //   .bx--file__selected-file,
+// //   .bx--file-filename,
+// //   .filename-label {
+// //     white-space: nowrap;
+// //     overflow: hidden;
+// //     text-overflow: ellipsis;
+// //   }
+// }
+
+
+// Assuming .Component2 is within the FileUpload component and you want it to be scrollable
+.Component2 {
+  margin-left: 5%;
+  margin-top: 5%;
+  // height: 90%;
+  // width: 70%;
+  //   max-height: 500px;
+  //   flex-grow: 1; // Allows it to take available space, adjust this based on your layout
+  overflow-y: auto; // Makes the component's content scrollable vertically
+  // Add any specific height definition if necessary to ensure there's a limit to trigger scrolling
+  position: relative;
+} 
+
+// Your additional styles
+.margin-top {
+  margin-top: 5rem; // Keep as is or adjust based on new layout needs
+}
+
+.progress {
+    position: absolute;
+    top: 10%;
+    left: 25%;
+    width: 68%;
+    height: 75%;
+    overflow-y: auto;
+    // z-index: 20;  
+}
+
+// // Style for the container that will hold the progress bar if needed
+// .progress-container {
+//     width: 100%; // Ensure the container spans the full width of its parent
+//     // Set other styles as needed for positioning and size
+//   }
+
+
+// .scrollable-output {
+//     max-height: 500px; // or any specific height according to your design needs
+//     overflow-y: auto; // enables vertical scrolling when content overflows
+//     // additional styling for padding, margin, etc., as needed
+//   }
+
+.loading {
+    position :fixed;
+    left:56%;
+    top:50%;
+  }
+
+
+
+  
+
+  
+  

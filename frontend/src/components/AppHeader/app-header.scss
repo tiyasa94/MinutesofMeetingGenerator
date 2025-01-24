@@ -1,0 +1,45 @@
+@use '@carbon/react';
+
+.appheader {
+	z-index: 2;
+}
+.side_nav{
+	background: none;
+	border: none;
+	background-color: black;
+
+}
+.side_nav1{
+	// background-color: white;
+	color: white;
+	fill: white;
+	text-decoration: none;
+
+}
+.side_nav1:hover {
+    color:white;
+    // text-decoration: underline;
+}
+
+.btn{
+	background: none; 
+	border: none;
+	margin-left: 0.5%; 
+	margin-right:0.5%; 
+	color: white;
+	cursor: pointer;
+    transition: transform 0.3s;
+}
+
+.btn:active {
+    transform: translateY(4px); /* Adjust the vertical displacement based on your preference */
+  }
+
+.header{
+	background-color: black;
+	border: black;
+}
+.title{
+	color: white;
+}
+

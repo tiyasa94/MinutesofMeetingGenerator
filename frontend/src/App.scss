@@ -1,0 +1,79 @@
+@use "@carbon/react";
+
+.App h1 {
+    text-align: left; // Aligns the heading to the left
+    font-family: 'IBM Plex Sans', sans-serif; // Ensures usage of IBM Plex Sans
+    padding-left: 2rem; // Adds some padding on the left for alignment
+    color: #161616; // Sets the color to a dark shade for professionalism
+    font-size: 2rem; // Sets a suitable font size for the heading
+    font-weight: 400; // Regular font weight for readability
+    margin-top: 0; // Adjusts the top margin if needed
+    margin-bottom: 1rem; // Provides some space below the heading
+  }
+
+.App { 
+    color: #161616; 
+    font-family: "IBM Plex Sans", sans-serif; 
+    font-weight: 200; 
+    line-height: 1.25; 
+    word-wrap: break-word; 
+    padding-top: 3.5rem; 
+    padding-bottom: 2.5rem; 
+    text-align: center; 
+    background-image: url('./Image-3.jpeg'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    height: 100vh; 
+    overflow: hidden; 
+  }
+
+// Optional: Define specific font sizes for elements where needed
+h1, h2, h3, h4, h5, h6 {
+  font-size: 2rem; // Example size, adjust as needed
+}
+
+.Flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Component1 {
+  padding: 2.5rem; 
+  justify-self: center; 
+  align-items: center; 
+  justify-content: center; 
+  height: 80vh; 
+}
+
+.Component1 > button { 
+  margin-top: 1.5rem; 
+} 
+
+// .response-container {
+//     max-height: 200px; 
+//     overflow-y: auto; 
+//     margin-top: 1rem; 
+//     padding: 0.5rem; 
+//     border: 1px solid #e0e0e0; 
+//     border-radius: 4px; // Round the corners --> (optional)
+//     background-color: #f4f4f4; 
+//  }
+
+
+.Component2 {
+    width: 85%; // Increase width as needed, was previously 80%
+    max-height: 80vh; // Increase max height for a larger output area before scrolling
+    padding: 2rem; 
+    justify-self: center; 
+    align-items: center; 
+    justify-content: center; 
+    // overflow-y: auto; // Keeps the scrolling functionality for overflow content
+  }
+  
+
+// .loading {
+//   margin-left: 20vw;
+// }
+
