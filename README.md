@@ -16,8 +16,7 @@ This repository contains all you need to get started and contribute to the proje
       - [Frontend Setup](#frontend-setup)
       - [Start React Application](#start-the-react-application)
 - [Usage](#usage)
-- [Contributing](#contributing)
-- [Acknowledgments](#acknowledgments)
+
 
 
 
@@ -48,7 +47,7 @@ The **Minutes of Meeting (MOM) Generator** is a web application designed to auto
 ### **Backend Setup**
 - **Clone the Repository**
    ```sh
-   git clone https://github.ibm.com/Shashanka-B-R/Minutes-of-meeting.git
+   git clone [https://github.com/tiyasa94/MinutesofMeetingGenerator.git]
    ```
    
 - **Create and Activate a Virtual Environment in backend folder**
